@@ -13,16 +13,16 @@ entity mux81 is
 		  A6: in std_logic_vector(15 downto 0);
 		  A7: in std_logic_vector(15 downto 0);
         S: in std_logic_vector(2 downto 0);
-		  Enable : in std_logic;
+		  
         Op: out std_logic_vector(15 downto 0)
     ) ;
 end mux81;
 architecture behavior of mux81 is
 
 begin
-alu : process( A0, A1, A2, A3, A4, A5, A6, A7, S, Enable)
+alu : process( A0, A1, A2, A3, A4, A5, A6, A7, S, )
 begin
-	if Enable = '1' then
+	
 		  if S="000" then
 			 Op <= A0;
 		  elsif S="001" then
@@ -40,8 +40,6 @@ begin
 		  else
 			 Op <= A7;
 		  end if;
-	else
-		Op <= "0000000000000000";
-	end if;
+	
 end process ;
 end behavior;
