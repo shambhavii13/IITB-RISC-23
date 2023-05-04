@@ -11,7 +11,7 @@ enTITy Dataflow is
         ALU_OP : in std_logic_vector(3 downto 0);
         CLK : in std_logic;
         Current_Zero_OUT, Current_Carry_OUT : out std_logic;
-        New_Zero_OUT, New_Carry_OUT : out std_logic;
+        New_Zero_OUT, New_Carry_OUT, IS_IMM_ZERO_LM: out std_logic;
         IR_OUT : out std_logic_vector(15 downto 0)
     );
 end enTITy Dataflow;
@@ -186,7 +186,8 @@ architecture Dataflow_Arch of Dataflow is
         port(
             IMM_IN : in std_logic_vector(15 downto 0);
         PENC_OP : out std_logic_vector(2 downto 0); 
-        IMM_OP : out std_logic_vector(15 downto 0)
+        IMM_OP : out std_logic_vector(15 downto 0);
+        IS_IMM_ZERO : out std_logic
         );
     end component;
 
@@ -371,7 +372,8 @@ begin
     LMSM_1 : LMSM port map(
         IMM_IN =>STG3_SE_IMM_2 ,
         PENC_OP =>STG3_PENC ,
-        IMM_OP =>STG3_SM_IMM
+        IMM_OP =>STG3_SM_IMM,
+        IS_IMM_ZERO => IS_IMM_ZERO_SM
     );
 
     --DEST_MUX
@@ -494,7 +496,8 @@ begin
     LMSM_2 : LMSM port map(
         IMM_IN => STG4_ALU1_B ,
         PENC_OP =>STG4_PENC ,
-        IMM_OP =>STG4_LM_IMM
+        IMM_OP =>STG4_LM_IMM,
+        IS_IMM_ZERO => IS_IMM_ZERO_LM
     );
 
 
