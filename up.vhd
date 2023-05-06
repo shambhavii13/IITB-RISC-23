@@ -5,8 +5,11 @@ library work;
 
 entity CPU is
     port(clk : in std_logic;
-		output_dummy: out std_logic);
-end CPU;
+		output_dummy: out std_logic;
+		Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0);
+		Current_Zero_OUT, Current_Carry_OUT: out std_logic
+		);
+end entity;
 
 architecture main of CPU is
 
@@ -23,7 +26,8 @@ architecture main of CPU is
 
         Current_Zero_OUT, Current_Carry_OUT, Sign_Bit : out std_logic;
         New_Zero_OUT, New_Carry_OUT, IS_IMM_ZERO_LM, IS_IMM_ZERO_SM: out std_logic;
-        IF_ID_IR,ID_RR_IR,RR_EX_IR,EX_MEM_IR,MEM_WB_IR : out std_logic_vector(15 downto 0)
+        IF_ID_IR,ID_RR_IR,RR_EX_IR,EX_MEM_IR,MEM_WB_IR : out std_logic_vector(15 downto 0);
+		Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0)
     );
 	end component;
 	
@@ -52,6 +56,7 @@ signal IF_ID_CLR_s,ID_RR_CLR_s,RR_EX_CLR_s,EX_MEM_CLR_s,MEM_WB_CLR_s: std_logic;
 signal MUX_PC_SEL_s, MUX_DEST_SEL_s: std_logic_vector(1 downto 0);
 signal MUX_ALU_B_SEL_s, MUX_ALU_A_SEL_s: std_logic_vector(2 downto 0);
 signal ALU_OP_s:  std_logic_vector(3 downto 0);
+signal r0,r1,r2,r3,r4,r5,r6,r7: std_logic_vector(15 downto 0);
 	
 begin
 
@@ -147,7 +152,26 @@ DP: Dataflow port map (
 	  MUX_DEST_SEL=>MUX_DEST_SEL_s,
 	  MUX_ALU_B_SEL=>MUX_ALU_B_SEL_s,
 	   MUX_ALU_A_SEL=>MUX_ALU_A_SEL_s,
-	   ALU_OP=>ALU_OP_s
+	   ALU_OP=>ALU_OP_s,
+	   Reg0 => r0,
+	   Reg1 => r1,
+	   Reg2 => r2,
+	   Reg3 => r3,
+	   Reg4 => r4,
+	   Reg5 => r5,
+	   Reg6 => r6,
+	   Reg7 => r7
 );
+Reg0<=r0;
+Reg1<=r1;
+Reg2<=r2;
+Reg3<=r3;
+Reg4<=r4;
+Reg5<=r5;
+Reg6<=r6;
+Reg7<=r7;
+Current_Zero_OUT<=current_zero_s;
+Current_Carry_OUT<=current_carry_s;
+		
 							output_dummy<='1';
 end main;

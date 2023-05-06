@@ -14,7 +14,8 @@ enTITy Dataflow is
         IF_ID_CLR,ID_RR_CLR,RR_EX_CLR,EX_MEM_CLR,MEM_WB_CLR : in std_logic;
         Current_Zero_OUT, Current_Carry_OUT, Sign_Bit : out std_logic;
         New_Zero_OUT, New_Carry_OUT, IS_IMM_ZERO_LM, IS_IMM_ZERO_SM: out std_logic;
-        IF_ID_IR,ID_RR_IR,RR_EX_IR,EX_MEM_IR,MEM_WB_IR : out std_logic_vector(15 downto 0)
+        IF_ID_IR,ID_RR_IR,RR_EX_IR,EX_MEM_IR,MEM_WB_IR : out std_logic_vector(15 downto 0);
+        Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0)	
     );
 end enTITy Dataflow;
 
@@ -223,7 +224,8 @@ architecture Dataflow_Arch of Dataflow is
             RF_D3: in std_logic_vector(15 downto 0);
             RF_PC_R: out std_logic_vector(15 downto 0);
             RF_PC_W: in std_logic_vector(15 downto 0);
-            RF_D3_EN,PC_EN: in std_logic; clk : in std_logic		
+            RF_D3_EN,PC_EN: in std_logic; clk : in std_logic;
+            Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0)			
         );
     end component;
 
@@ -288,6 +290,7 @@ architecture Dataflow_Arch of Dataflow is
     signal STG3_DEST, STG6_DEST, STG4_DEST, STG5_DEST : std_logic_vector(2 downto 0);
     signal RF_D3_INP : std_logic_vector(15 downto 0);
     signal Current_Zero, Current_Carry, New_Carry, New_Zero : std_logic;
+    signal r0,r1,r2,r3,r4,r5,r6,r7: std_logic_vector(15 downto 0);
         
     signal STG3_IR,STG4_IR,STG5_IR,STG6_IR :std_logic_vector(15 downto 0);
 
@@ -439,7 +442,15 @@ begin
         RF_PC_W => STG1_MUX_OUT,
         RF_D3_EN => RF_D3_EN,
         PC_EN => RF_PC_EN,
-        clk => CLK
+        clk => CLK,
+        Reg0 => r0,
+        Reg1 => r1,
+        Reg2 => r2,
+        Reg3 => r3,
+        Reg4 => r4,
+        Reg5 => r5,
+        Reg6 => r6,
+        Reg7 => r7
     );
 
     --RF_A3_MUX
@@ -626,6 +637,14 @@ begin
 	 RR_EX_IR <= STG4_IR;
 	 EX_MEM_IR <= STG5_IR;
 	 MEM_WB_IR <= STG6_IR;
+     Reg0<=r0;
+     Reg1<=r1;
+     Reg2<=r2;
+     Reg3<=r3;
+     Reg4<=r4;
+     Reg5<=r5;
+     Reg6<=r6;
+     Reg7<=r7;
     
 
 end Dataflow_Arch;

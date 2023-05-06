@@ -12,7 +12,7 @@ end Instr_Mem;
 
 architecture mem_arch of Instr_Mem is
 	type mem_index is array(65535 downto 0) of std_logic_vector(7 downto 0);
-	signal mem: mem_index := ( 0=>"11110010",1=>"00000111",
+	signal mem: mem_index := (-- 0=>"11110010",1=>"00000111",
 	
 	2=>"00010010",3=>"10011000" ,4=>"00011001",5=>"01110000",
 	6=>"00010010",7=>"10011011", 8=>"10100010",9=>"10000111",

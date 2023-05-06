@@ -13,7 +13,8 @@ entity Register_File is
         RF_D3: in std_logic_vector(15 downto 0);
         RF_PC_R: out std_logic_vector(15 downto 0);
         RF_PC_W: in std_logic_vector(15 downto 0);
-        RF_D3_EN,PC_EN: in std_logic; clk : in std_logic		
+        RF_D3_EN,PC_EN: in std_logic; clk : in std_logic;
+        Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0)		
     );
 end Register_File;
 
@@ -77,5 +78,15 @@ begin
         null;
     end if;
 end process;
+
+Reg0<=r0;
+Reg1<=r1;
+Reg2<=r2;
+Reg3<=r3;
+Reg4<=r4;
+Reg5<=r5;
+Reg6<=r6;
+Reg7<=r7;
+
 
 end rb1;
