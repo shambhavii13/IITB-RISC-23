@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- STG2_PC... so on have to be removed
-enTITy Dataflow is
+entity Dataflow is
     port(
         ZF_EN, CF_EN, RF_D3_EN, RF_PC_EN, SH_EN,IF_ID_EN,ID_RR_EN,RR_EX_EN,EX_MEM_EN,MEM_WB_EN,MEM_WR_EN: in std_logic;
         MUX_SM_SEL,MUX_LM_SEL,MUX_SE_SEL, MUX_RF_D3_SEL, MUX_MEMDOUT_SEL,MUX_DEST2_SEL,MUX_RF_A3_SEL: in std_logic;
@@ -17,7 +17,7 @@ enTITy Dataflow is
         IF_ID_IR,ID_RR_IR,RR_EX_IR,EX_MEM_IR,MEM_WB_IR : out std_logic_vector(15 downto 0);
         Reg0,Reg1,Reg2,Reg3,Reg4,Reg5,Reg6,Reg7: out std_logic_vector(15 downto 0)	
     );
-end enTITy Dataflow;
+end entity Dataflow;
 
 architecture Dataflow_Arch of Dataflow is
 
@@ -289,7 +289,7 @@ architecture Dataflow_Arch of Dataflow is
     signal STG6_PC_2, STG6_MUX_OP, STG6_DOUT, STG6_ALU_C : std_logic_vector(15 downto 0);
     signal STG3_DEST, STG6_DEST, STG4_DEST, STG5_DEST : std_logic_vector(2 downto 0);
     signal RF_D3_INP : std_logic_vector(15 downto 0);
-    signal Current_Zero, Current_Carry, New_Carry, New_Zero : std_logic;
+    signal Current_Zero, Current_Carry, New_Carry, New_Zero : std_logic := '0';
     signal r0,r1,r2,r3,r4,r5,r6,r7: std_logic_vector(15 downto 0);
         
     signal STG3_IR,STG4_IR,STG5_IR,STG6_IR :std_logic_vector(15 downto 0);

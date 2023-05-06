@@ -1,5 +1,5 @@
 Analysis & Elaboration report for proj
-Sat May 06 18:57:59 2023
+Sat May 06 23:57:17 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Sat May 06 18:57:59 2023       ;
+; Analysis & Elaboration Status      ; Successful - Sat May 06 23:57:17 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; proj                                        ;
 ; Top-level Entity Name              ; DUT                                         ;
@@ -186,13 +186,13 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat May 06 18:57:04 2023
+    Info: Processing started: Sat May 06 23:55:50 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proj -c proj --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file pipeline_controller.vhd
-    Info (12022): Found design unit 1: pipeline_controller-Struct File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 24
-    Info (12023): Found entity 1: pipeline_controller File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 7
+    Info (12022): Found design unit 1: pipeline_controller-Struct File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 22
+    Info (12023): Found entity 1: pipeline_controller File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file up.vhd
     Info (12022): Found design unit 1: CPU-main File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd Line: 14
     Info (12023): Found entity 1: CPU File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd Line: 6
@@ -274,11 +274,44 @@ Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
 Info (12127): Elaborating entity "DUT" for the top level hierarchy
 Info (12128): Elaborating entity "CPU" for hierarchy "CPU:add_instance" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd Line: 18
 Info (12128): Elaborating entity "pipeline_controller" for hierarchy "CPU:add_instance|pipeline_controller:Ctrl" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd Line: 65
-Warning (10541): VHDL Signal Declaration warning at pipeline_controller.vhd(17): used implicit default value for signal "MUX_ALU1B_SEL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 17
-Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(33): inferring latch(es) for signal or variable "is_lm", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 33
-Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(33): inferring latch(es) for signal or variable "is_sm", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 33
-Info (10041): Inferred latch for "is_sm[0]" at pipeline_controller.vhd(44) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 44
-Info (10041): Inferred latch for "is_lm[0]" at pipeline_controller.vhd(44) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 44
+Warning (10541): VHDL Signal Declaration warning at pipeline_controller.vhd(15): used implicit default value for signal "MUX_ALU1B_SEL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 15
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(41): signal "is_lm0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 41
+Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(31): inferring latch(es) for signal or variable "is_lm0", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 31
+Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(31): inferring latch(es) for signal or variable "RF_PC_EN", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 31
+Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(31): inferring latch(es) for signal or variable "is_sm0", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 31
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(124): signal "IS_IMM_ZERO_SM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 124
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(178): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 178
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(178): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 178
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(180): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 180
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(180): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 180
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(185): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 185
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(185): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 185
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(187): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 187
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(187): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 187
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(191): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 191
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(191): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 191
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(193): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 193
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(193): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 193
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(205): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 205
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(205): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 205
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(207): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 207
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(207): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 207
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(210): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 210
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(210): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 210
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(212): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 212
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(212): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 212
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(216): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 216
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(216): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 216
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(218): signal "Current_Carry" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 218
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(218): signal "Current_Zero" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 218
+Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(115): inferring latch(es) for signal or variable "is_sm1", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 115
+Warning (10492): VHDL Process Statement warning at pipeline_controller.vhd(260): signal "is_lm1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 260
+Warning (10631): VHDL Process Statement warning at pipeline_controller.vhd(238): inferring latch(es) for signal or variable "is_lm1", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 238
+Info (10041): Inferred latch for "is_lm1" at pipeline_controller.vhd(238) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 238
+Info (10041): Inferred latch for "is_sm1" at pipeline_controller.vhd(122) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 122
+Info (10041): Inferred latch for "RF_PC_EN" at pipeline_controller.vhd(31) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 31
+Info (10041): Inferred latch for "is_lm0" at pipeline_controller.vhd(31) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 31
+Info (10041): Inferred latch for "is_sm0" at pipeline_controller.vhd(82) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd Line: 82
 Info (12128): Elaborating entity "Dataflow" for hierarchy "CPU:add_instance|Dataflow:DP" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd Line: 113
 Info (12128): Elaborating entity "Instr_Mem" for hierarchy "CPU:add_instance|Dataflow:DP|Instr_Mem:IM" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 300
 Warning (10492): VHDL Process Statement warning at Instr_Mem.vhd(27): signal "mem" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd Line: 27
@@ -341,7 +374,6 @@ Info (12128): Elaborating entity "sign_ext_9" for hierarchy "CPU:add_instance|Da
 Info (12128): Elaborating entity "MUX_2_to_1_16bit" for hierarchy "CPU:add_instance|Dataflow:DP|MUX_2_to_1_16bit:SE_MUX" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 357
 Info (12128): Elaborating entity "shifter_multiplybytwo" for hierarchy "CPU:add_instance|Dataflow:DP|shifter_multiplybytwo:SHIFTER" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 365
 Info (12128): Elaborating entity "ID_RR" for hierarchy "CPU:add_instance|Dataflow:DP|ID_RR:IDxRR" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 389
-Warning (10492): VHDL Process Statement warning at ID_RR.vhd(51): signal "ID_RR_EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd Line: 51
 Warning (10631): VHDL Process Statement warning at ID_RR.vhd(49): inferring latch(es) for signal or variable "IR", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd Line: 49
 Warning (10631): VHDL Process Statement warning at ID_RR.vhd(49): inferring latch(es) for signal or variable "PC_2", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd Line: 49
 Warning (10631): VHDL Process Statement warning at ID_RR.vhd(49): inferring latch(es) for signal or variable "PC_2xIMM", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd Line: 49
@@ -429,80 +461,7 @@ Info (12128): Elaborating entity "mux81" for hierarchy "CPU:add_instance|Dataflo
 Info (12128): Elaborating entity "MUX_2_to_1_3bit" for hierarchy "CPU:add_instance|Dataflow:DP|MUX_2_to_1_3bit:RF_A3_MUX" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 457
 Info (12128): Elaborating entity "MUX_6_to_1" for hierarchy "CPU:add_instance|Dataflow:DP|MUX_6_to_1:ALU_A_MUX" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 464
 Info (12128): Elaborating entity "RR_EX" for hierarchy "CPU:add_instance|Dataflow:DP|RR_EX:RRxEX" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 495
-Warning (10492): VHDL Process Statement warning at RR_EX.vhd(50): signal "RR_EX_EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 50
 Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "IR", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "PC_2", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "PC_2xIMM", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "RA", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "ALU_A", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Warning (10631): VHDL Process Statement warning at RR_EX.vhd(47): inferring latch(es) for signal or variable "DEST", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "DEST[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "DEST[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "DEST[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[3]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[4]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[5]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[6]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[7]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[8]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[9]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[10]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[11]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[12]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[13]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[14]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "ALU_A[15]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[3]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[4]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[5]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[6]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[7]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[8]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[9]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[10]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[11]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[12]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[13]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[14]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "RA[15]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[3]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[4]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[5]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[6]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[7]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[8]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[9]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[10]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[11]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[12]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[13]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[14]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2xIMM[15]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[3]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[4]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[5]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[6]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[7]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[8]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[9]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[10]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[11]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[12]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[13]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[14]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
-Info (10041): Inferred latch for "PC_2[15]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
 Info (10041): Inferred latch for "IR[0]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
 Info (10041): Inferred latch for "IR[1]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
 Info (10041): Inferred latch for "IR[2]" at RR_EX.vhd(47) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd Line: 47
@@ -621,7 +580,6 @@ Info (10041): Inferred latch for "add16_out[14]" at ALU.vhd(60) File: C:/Users/9
 Info (10041): Inferred latch for "add16_out[15]" at ALU.vhd(60) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd Line: 60
 Info (10041): Inferred latch for "add16_out[16]" at ALU.vhd(60) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd Line: 60
 Info (12128): Elaborating entity "EX_MEM" for hierarchy "CPU:add_instance|Dataflow:DP|EX_MEM:EXxMEM" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 566
-Warning (10492): VHDL Process Statement warning at EX_MEM.vhd(36): signal "EX_MEM_EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd Line: 36
 Warning (10631): VHDL Process Statement warning at EX_MEM.vhd(34): inferring latch(es) for signal or variable "IR", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd Line: 34
 Warning (10631): VHDL Process Statement warning at EX_MEM.vhd(34): inferring latch(es) for signal or variable "PC_2", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd Line: 34
 Warning (10631): VHDL Process Statement warning at EX_MEM.vhd(34): inferring latch(es) for signal or variable "ALU_C", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd Line: 34
@@ -697,7 +655,6 @@ Info (10041): Inferred latch for "IR[15]" at EX_MEM.vhd(34) File: C:/Users/91937
 Info (12128): Elaborating entity "Data_Mem" for hierarchy "CPU:add_instance|Dataflow:DP|Data_Mem:Data_Memory" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 587
 Warning (10492): VHDL Process Statement warning at Data_Mem.vhd(33): signal "mem" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd Line: 33
 Info (12128): Elaborating entity "MEM_WB" for hierarchy "CPU:add_instance|Dataflow:DP|MEM_WB:MEMxWB" File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd Line: 596
-Warning (10492): VHDL Process Statement warning at MEM_WB.vhd(41): signal "MEM_WB_EN" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 41
 Warning (10631): VHDL Process Statement warning at MEM_WB.vhd(36): inferring latch(es) for signal or variable "IR", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
 Warning (10631): VHDL Process Statement warning at MEM_WB.vhd(36): inferring latch(es) for signal or variable "PC_2", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
 Warning (10631): VHDL Process Statement warning at MEM_WB.vhd(36): inferring latch(es) for signal or variable "ALU_C", which holds its previous value in one or more paths through the process File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
@@ -770,10 +727,10 @@ Info (10041): Inferred latch for "IR[12]" at MEM_WB.vhd(36) File: C:/Users/91937
 Info (10041): Inferred latch for "IR[13]" at MEM_WB.vhd(36) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
 Info (10041): Inferred latch for "IR[14]" at MEM_WB.vhd(36) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
 Info (10041): Inferred latch for "IR[15]" at MEM_WB.vhd(36) File: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd Line: 36
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 68 warnings
-    Info: Peak virtual memory: 6366 megabytes
-    Info: Processing ended: Sat May 06 18:58:00 2023
-    Info: Elapsed time: 00:00:56
-    Info: Total CPU time (on all processors): 00:01:02
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 89 warnings
+    Info: Peak virtual memory: 6361 megabytes
+    Info: Processing ended: Sat May 06 23:57:18 2023
+    Info: Elapsed time: 00:01:28
+    Info: Total CPU time (on all processors): 00:01:34
 
 

@@ -47,14 +47,13 @@ begin
 process(PC_2_IN, ALU_A_MUX_IN, ALU_B_MUX_IN, DEST_IN, RA_IN, PC_2xIMM_IN,RR_EX_CLR,RR_EX_EN, IR_IN,clk)
 begin
     ALU_B <= ALU_B_MUX_IN; -- SM
+    PC_2 <= PC_2_IN;
+    PC_2xIMM <= PC_2xIMM_IN;
+    RA <= RA_IN;
+    ALU_A <= ALU_A_MUX_IN;
+    DEST <= DEST_IN;
     if(RR_EX_EN='1') then
         IR <= IR_IN;
-        PC_2 <= PC_2_IN;
-        PC_2xIMM <= PC_2xIMM_IN;
-        
-        RA <= RA_IN;
-        ALU_A <= ALU_A_MUX_IN;
-        DEST <= DEST_IN;
     else
         null;
     end if;

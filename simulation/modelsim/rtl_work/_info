@@ -24,9 +24,9 @@ Vm;8kHW91n6Y6=:_XDWJ1k3
 !s100 [aR[7I0DDi2N>jn<i^OPV3
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1683379705
+Z8 !s110 1683394135
 !i10b 1
-Z9 !s108 1683379705.000000
+Z9 !s108 1683394134.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd|
 Z11 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd|
 !i113 1
@@ -66,11 +66,11 @@ V9]f>XbnEm1eCeLCB[n9c71
 !s100 d;3aY5ZH`Q5Di]6ZVV8oO3
 R7
 31
-Z17 !s110 1683379704
+Z17 !s110 1683394134
 !i10b 1
-Z18 !s108 1683379704.000000
-Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd|
-Z20 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd|
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd|
+Z19 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd|
 !i113 1
 R12
 R13
@@ -87,32 +87,32 @@ R7
 31
 R17
 !i10b 1
+R9
 R18
 R19
-R20
 !i113 1
 R12
 R13
 Ecpu
-Z21 w1683379528
+Z20 w1683379528
 R2
 R3
 R4
 !i122 1
 R0
-Z22 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd
-Z23 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd
+Z21 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd
+Z22 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd
 l0
 L6 1
 V1@z9SOaYf7aB05>Uoe:=Z1
 !s100 j?;k5`IHQe_S7<G:QJ_Xn0
 R7
 31
-Z24 !s110 1683379702
+Z23 !s110 1683394132
 !i10b 1
-Z25 !s108 1683379702.000000
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd|
-Z27 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd|
+Z24 !s108 1683394132.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd|
+Z26 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd|
 !i113 1
 R12
 R13
@@ -128,11 +128,11 @@ V;;IekobXRcmWALXTmj07e1
 !s100 V:[A]d7?io5c?f@Q;jcHz3
 R7
 31
-R24
+R23
 !i10b 1
+R24
 R25
 R26
-R27
 !i113 1
 R12
 R13
@@ -143,8 +143,8 @@ R3
 R4
 !i122 22
 R0
-Z28 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd
-Z29 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd
+Z27 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd
+Z28 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd
 l0
 L5 1
 VTEK7k3X:A0zGEY_<ZNl^Y0
@@ -153,9 +153,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd|
-Z31 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd|
+R9
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd|
+Z30 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd|
 !i113 1
 R12
 R13
@@ -173,21 +173,21 @@ R7
 31
 R17
 !i10b 1
-R18
+R9
+R29
 R30
-R31
 !i113 1
 R12
 R13
 Edataflow
-Z32 w1683379580
+Z31 w1683393441
 R2
 R3
 R4
 !i122 21
 R0
-Z33 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd
-Z34 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd
+Z32 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd
+Z33 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd
 l0
 L6 1
 VD5j:M>D?A2AhQWL;]JGc[1
@@ -196,9 +196,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd|
-Z36 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd|
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd|
+Z35 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd|
 !i113 1
 R12
 R13
@@ -210,26 +210,26 @@ DEx4 work 8 dataflow 0 22 D5j:M>D?A2AhQWL;]JGc[1
 !i122 21
 l297
 L22 629
-VM0aXfai5aJWTFH8NzYNB_2
-!s100 >=iSVUZIf4W<f;2G=k0AU0
+VRH]961AeB4I4h^V83[NBf0
+!s100 P5@bZXS334NdGHHd]:7G51
 R7
 31
 R17
 !i10b 1
-R18
+R9
+R34
 R35
-R36
 !i113 1
 R12
 R13
 Edut
-Z37 w1683379624
+Z36 w1683379624
 R3
 R4
 !i122 20
 R0
-Z38 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd
-Z39 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd
+Z37 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd
+Z38 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd
 l0
 L3 1
 V6^5hPmGILPoo5mFFL?iQ^1
@@ -238,9 +238,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd|
-Z41 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd|
+R9
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd|
+Z40 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd|
 !i113 1
 R12
 R13
@@ -257,14 +257,14 @@ R7
 31
 R17
 !i10b 1
-R18
+R9
+R39
 R40
-R41
 !i113 1
 R12
 R13
 Eex_mem
-R1
+Z41 w1683384965
 R2
 R3
 R4
@@ -280,7 +280,7 @@ R7
 31
 R17
 !i10b 1
-R18
+R9
 Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd|
 Z45 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd|
 !i113 1
@@ -294,27 +294,27 @@ DEx4 work 6 ex_mem 0 22 IW?LUzligB<jFR5^=P09Z1
 !i122 19
 l30
 L25 41
-VcP`L1=4>:0:QgBeO[>UGQ1
-!s100 20`e_aaeY2Q[bgbfkeZ8A3
+Vl1QDeN`PenhW6f;Q3kCj22
+!s100 k_IFGQPzgUB=g_IKSaG8=0
 R7
 31
 R17
 !i10b 1
-R18
+R9
 R44
 R45
 !i113 1
 R12
 R13
 Eid_rr
-R1
+Z46 w1683384920
 R2
 R3
 R4
 !i122 18
 R0
-Z46 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd
-Z47 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd
+Z47 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd
+Z48 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd
 l0
 L5 1
 Vg>2T95[f_heoEK<Uzlh0Y2
@@ -323,9 +323,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd|
-Z49 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd|
+R9
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd|
+Z50 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd|
 !i113 1
 R12
 R13
@@ -337,27 +337,27 @@ DEx4 work 5 id_rr 0 22 g>2T95[f_heoEK<Uzlh0Y2
 !i122 18
 l37
 L31 61
-VDTDNRS_a^oGB^]D_]6VoO2
-!s100 lI4_^i9>^2_5]RCd[Q2m]3
+VZmY4:DE0UY7caFGBnJ7k:3
+!s100 H6?IW:Be6??SX>gVM]nbN1
 R7
 31
 R17
 !i10b 1
-R18
-R48
+R9
 R49
+R50
 !i113 1
 R12
 R13
 Eif_id
-R1
+Z51 w1683384900
 R2
 R3
 R4
 !i122 17
 R0
-Z50 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd
-Z51 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd
+Z52 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd
+Z53 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd
 l0
 L5 1
 VY6Q=7[5VWW?Va=lUFze_12
@@ -366,9 +366,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd|
-Z53 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd|
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd|
+Z55 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd|
 !i113 1
 R12
 R13
@@ -380,27 +380,27 @@ DEx4 work 5 if_id 0 22 Y6Q=7[5VWW?Va=lUFze_12
 !i122 17
 l26
 L23 44
-V5j5IQBMBKiYbZ?D`QOAPE0
-!s100 c?::N>XXO2g>=f]Xj?dG>3
+VG;PoKG_=RaeMYn:1PAhC>2
+!s100 F;WWQXVmzkZ4aUhF6SG7J3
 R7
 31
 R17
 !i10b 1
-R18
-R52
-R53
+R9
+R54
+R55
 !i113 1
 R12
 R13
 Einstr_mem
-Z54 w1683376444
+Z56 w1683394052
 R2
 R3
 R4
 !i122 16
 R0
-Z55 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd
-Z56 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd
+Z57 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd
+Z58 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd
 l0
 L5 1
 V;@f3S8^U?a3DC;<ClKPl>0
@@ -409,9 +409,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd|
-Z58 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd|
+R9
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd|
+Z60 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd|
 !i113 1
 R12
 R13
@@ -423,15 +423,15 @@ DEx4 work 9 instr_mem 0 22 ;@f3S8^U?a3DC;<ClKPl>0
 !i122 16
 l22
 L13 21
-VNXI<kD]7?Q4n>9NDA@@ga1
-!s100 N_OB=Db9hAmfR3ZWWz7a^1
+VcX6eijk^cbaNQS4hC[oHE1
+!s100 2^P]:Iz6M2bT^b;6TX;NJ0
 R7
 31
 R17
 !i10b 1
-R18
-R57
-R58
+R9
+R59
+R60
 !i113 1
 R12
 R13
@@ -442,8 +442,8 @@ R3
 R4
 !i122 15
 R0
-Z59 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd
-Z60 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd
+Z61 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd
+Z62 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd
 l0
 L5 1
 VgbzW4R;8OhJQ1dM9bzA>S3
@@ -452,9 +452,9 @@ R7
 31
 R17
 !i10b 1
-R18
-Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd|
-Z62 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd|
+Z63 !s108 1683394133.000000
+Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd|
+Z65 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd|
 !i113 1
 R12
 R13
@@ -472,32 +472,32 @@ R7
 31
 R17
 !i10b 1
-R18
-R61
-R62
+R63
+R64
+R65
 !i113 1
 R12
 R13
 Emem_wb
-R1
+Z66 w1683384978
 R2
 R3
 R4
 !i122 14
 R0
-Z63 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd
-Z64 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd
+Z67 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd
+Z68 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd
 l0
 L5 1
 VgLQ=zYKSLHicH?CIN9TRk2
 !s100 S^QoheoMdD`6528lg2QMe1
 R7
 31
-Z65 !s110 1683379703
+Z69 !s110 1683394133
 !i10b 1
-Z66 !s108 1683379703.000000
-Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd|
-Z68 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd|
+R63
+Z70 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd|
+Z71 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd|
 !i113 1
 R12
 R13
@@ -509,15 +509,15 @@ DEx4 work 6 mem_wb 0 22 gLQ=zYKSLHicH?CIN9TRk2
 !i122 14
 l28
 L23 50
-V6BmG3NV;T0c@YMS_^k^J;1
-!s100 <Sm9hVknFgbF7;d^Pn;^J3
+V=E5UFSG5=W@=FmU34FML[3
+!s100 :^Nm04F`GDZ]9<L;hZ:Yn2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R67
-R68
+R63
+R70
+R71
 !i113 1
 R12
 R13
@@ -527,19 +527,19 @@ R3
 R4
 !i122 8
 R0
-Z69 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd
-Z70 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd
+Z72 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd
+Z73 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd
 l0
 L4 1
 V4hjFm^mV1lgD2=RQFjWkK2
 !s100 9BFcGkhC@I6N?N^YT^VV83
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z71 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd|
-Z72 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd|
+R63
+Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd|
+Z75 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd|
 !i113 1
 R12
 R13
@@ -554,11 +554,11 @@ VVR@TOkD0cJ4AW5>]NAIlZ1
 !s100 6;eN>`OozGdkeb9;PTM7F2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R71
-R72
+R63
+R74
+R75
 !i113 1
 R12
 R13
@@ -568,19 +568,19 @@ R3
 R4
 !i122 12
 R0
-Z73 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd
-Z74 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd
+Z76 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd
+Z77 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd
 l0
 L4 1
 VLm>GITHgbi0z`4ZX2b;OV1
 !s100 oC<TNEFO3m:<DTV;Yi8eZ2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z75 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd|
-Z76 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd|
+R63
+Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd|
+Z79 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd|
 !i113 1
 R12
 R13
@@ -590,16 +590,16 @@ R4
 DEx4 work 16 mux_2_to_1_16bit 0 22 Lm>GITHgbi0z`4ZX2b;OV1
 !i122 12
 l15
-Z77 L13 17
+Z80 L13 17
 VmY9U2:9dAd2dd9EgeU0c=3
 !s100 QQ3HOJDRaaSjYUhEAYh1e0
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R75
-R76
+R63
+R78
+R79
 !i113 1
 R12
 R13
@@ -609,19 +609,19 @@ R3
 R4
 !i122 13
 R0
-Z78 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd
-Z79 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd
+Z81 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd
+Z82 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd
 l0
 L4 1
 VTOZn7fM>:GNn_<35LodaQ3
 !s100 0gIHAj5S_[Gg_7Q;>7]f;2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd|
-Z81 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd|
+R63
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd|
+Z84 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd|
 !i113 1
 R12
 R13
@@ -631,16 +631,16 @@ R4
 DEx4 work 15 mux_2_to_1_3bit 0 22 TOZn7fM>:GNn_<35LodaQ3
 !i122 13
 l15
-R77
+R80
 VWHV<WGcfQiI?f75PU83SB3
 !s100 Zi6aU67[Ee`c]nmDbJK=?0
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R80
-R81
+R63
+R83
+R84
 !i113 1
 R12
 R13
@@ -650,19 +650,19 @@ R3
 R4
 !i122 11
 R0
-Z82 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd
-Z83 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd
+Z85 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd
+Z86 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd
 l0
 L4 1
 VJX;jZmh]3l>4gb1lCHEIf1
 !s100 >JkP[b84bKE_PnF`UZIES3
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z84 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd|
-Z85 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd|
+R63
+Z87 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd|
+Z88 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd|
 !i113 1
 R12
 R13
@@ -677,11 +677,11 @@ VkM=naJUL8bj]Tm@4A13mk0
 !s100 Dm6E:eSGm_DQT5G8Mc8S73
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R84
-R85
+R63
+R87
+R88
 !i113 1
 R12
 R13
@@ -691,19 +691,19 @@ R3
 R4
 !i122 10
 R0
-Z86 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd
-Z87 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd
+Z89 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd
+Z90 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd
 l0
 L4 1
 VQLC[c4djcfSjG8fF[Ka=^2
 !s100 >8nnF:X[V;HOo?@:LzTJ=2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z88 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd|
-Z89 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd|
+R63
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd|
+Z92 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd|
 !i113 1
 R12
 R13
@@ -718,11 +718,11 @@ VI0T1DCX3I>PN]6U[lM[AY2
 !s100 A1mm3HCiMdJPUA>DAi2RH1
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R88
-R89
+R63
+R91
+R92
 !i113 1
 R12
 R13
@@ -732,19 +732,19 @@ R3
 R4
 !i122 9
 R0
-Z90 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd
-Z91 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd
+Z93 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd
+Z94 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd
 l0
 L4 1
 V0J:WWooiBa?=g2Em4@VcE3
 !s100 9VQ1ELh^R0D0Ui?FT_RMX2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd|
-Z93 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd|
+R63
+Z95 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd|
+Z96 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd|
 !i113 1
 R12
 R13
@@ -759,34 +759,34 @@ V2o`J80lEoBC9COnJ`5hJ^0
 !s100 j4]Dn8fDPZLNZ9hofhLUh0
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R92
-R93
+R63
+R95
+R96
 !i113 1
 R12
 R13
 Epipeline_controller
-R1
+Z97 w1683393568
 R2
 R3
 R4
 !i122 0
 R0
-Z94 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd
-Z95 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd
+Z98 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd
+Z99 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd
 l0
 L7 1
 VJ_K04bS:4oCZ[_4Sf:NcK3
 !s100 8[Rf?U^H0^D:`ZSiGQh;=1
 R7
 31
-R24
+R23
 !i10b 1
-R25
-Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd|
-Z97 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd|
+R24
+Z100 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd|
+Z101 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd|
 !i113 1
 R12
 R13
@@ -797,16 +797,16 @@ R4
 DEx4 work 19 pipeline_controller 0 22 J_K04bS:4oCZ[_4Sf:NcK3
 !i122 0
 l31
-L24 436
-VKC1EPS7zPa[WLZOM`fJN10
-!s100 OgG@dOYSiaNjc]=9K8cM?2
+L24 510
+VK^]SAWV^8hkN4BJ7MGk>?0
+!s100 I?0hR]foHiWj4b4^jbRn]1
 R7
 31
-R24
+R23
 !i10b 1
-R25
-R96
-R97
+R24
+R100
+R101
 !i113 1
 R12
 R13
@@ -817,19 +817,19 @@ R3
 R4
 !i122 7
 R0
-Z98 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd
-Z99 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd
+Z102 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd
+Z103 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd
 l0
 L5 1
 VG=3?aF7ADX`YUL3?l@]bR0
 !s100 2Z[9bi?WTUVU0`Rd7hlCH0
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z100 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd|
-Z101 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd|
+R63
+Z104 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd|
+Z105 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd|
 !i113 1
 R12
 R13
@@ -840,39 +840,39 @@ R4
 DEx4 work 10 register_1 0 22 G=3?aF7ADX`YUL3?l@]bR0
 !i122 7
 l14
-R77
+R80
 V@3ZNGTGnJ_hI=>C=47mNe0
 !s100 AESJmBM<4iK]n>UL7F3nT2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R100
-R101
+R63
+R104
+R105
 !i113 1
 R12
 R13
 Eregister_file
-Z102 w1683379459
+Z106 w1683393440
 R2
 R3
 R4
 !i122 6
 R0
-Z103 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd
-Z104 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd
+Z107 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd
+Z108 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd
 l0
 L6 1
 ViR?<g_3nBL3]b^>`@WmW=1
 !s100 j1IQGh`YX5A0RebkZDMeK2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-Z105 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd|
-Z106 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd|
+R63
+Z109 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd|
+Z110 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd|
 !i113 1
 R12
 R13
@@ -884,38 +884,38 @@ DEx4 work 13 register_file 0 22 iR?<g_3nBL3]b^>`@WmW=1
 !i122 6
 l39
 L21 72
-V9Ef`OLaJ2WIKbP^Vz7[b^3
-!s100 zO[E4hmV`X2>^NW6bNhnb0
+VJ8oJF;XS[TEeGkTGVfUfL2
+!s100 YKZMjDBZKdRP^VaVn:jNk2
 R7
 31
-R65
+R69
 !i10b 1
-R66
-R105
-R106
+R63
+R109
+R110
 !i113 1
 R12
 R13
 Err_ex
-R1
+Z111 w1683384946
 R2
 R3
 R4
 !i122 5
 R0
-Z107 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd
-Z108 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd
+Z112 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd
+Z113 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd
 l0
 L5 1
 VT=heJ;Q61@Sj:M9_<eGd51
 !s100 :GSPY<Sk[]Fi`T_33_35F3
 R7
 31
-R65
+R23
 !i10b 1
-R25
-Z109 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd|
-Z110 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd|
+R24
+Z114 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd|
+Z115 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd|
 !i113 1
 R12
 R13
@@ -927,15 +927,15 @@ DEx4 work 5 rr_ex 0 22 T=heJ;Q61@Sj:M9_<eGd51
 !i122 5
 l37
 L31 57
-V66bmnCWfGMGzg:Ej[ab0H1
-!s100 1P5IF<[NG26B;5Y0zSEmV1
+V<1K5iMnI0oH^z4QZf@Rl`0
+!s100 F<];CA?`bK<A1bQoANe`k3
 R7
 31
-R65
+R23
 !i10b 1
-R25
-R109
-R110
+R24
+R114
+R115
 !i113 1
 R12
 R13
@@ -945,19 +945,19 @@ R3
 R4
 !i122 4
 R0
-Z111 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd
-Z112 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd
+Z116 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd
+Z117 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd
 l0
 L4 1
 VVYGaUgf7IRjB3]C<eD2A<2
 !s100 aJehCzG9JhXDj1ILM7adm1
 R7
 31
-R24
+R23
 !i10b 1
-R25
-Z113 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd|
-Z114 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd|
+R24
+Z118 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd|
+Z119 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd|
 !i113 1
 R12
 R13
@@ -972,11 +972,11 @@ VcV5Jm]zdO05@Zz0fc>jb41
 !s100 ;`OaMVI9FAJ0T3H?mb^b]2
 R7
 31
-R24
+R23
 !i10b 1
-R25
-R113
-R114
+R24
+R118
+R119
 !i113 1
 R12
 R13
@@ -987,19 +987,19 @@ R3
 R4
 !i122 3
 R0
-Z115 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd
-Z116 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd
+Z120 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd
+Z121 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd
 l0
 L5 1
 V`9h?7aSzOR:Zg]Nc[ZEgf3
 !s100 3<]EXGi`bXHb2=WTi47B50
 R7
 31
-R24
+R23
 !i10b 1
-R25
-Z117 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd|
-Z118 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd|
+R24
+Z122 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd|
+Z123 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd|
 !i113 1
 R12
 R13
@@ -1010,16 +1010,16 @@ R4
 DEx4 work 10 sign_ext_6 0 22 `9h?7aSzOR:Zg]Nc[ZEgf3
 !i122 3
 l12
-Z119 L11 14
+Z124 L11 14
 VNdFazn50A@h^BidZOB2Ic1
 !s100 0`kD;]6nMh<15ajXZSWzj3
 R7
 31
-R24
+R23
 !i10b 1
-R25
-R117
-R118
+R24
+R122
+R123
 !i113 1
 R12
 R13
@@ -1030,19 +1030,19 @@ R3
 R4
 !i122 2
 R0
-Z120 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd
-Z121 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd
+Z125 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd
+Z126 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd
 l0
 L5 1
 V?=4NjFObf5;?0YVmOPRgk0
 !s100 FY8bmjJ0ke]VeCk?hgk4z0
 R7
 31
-R24
+R23
 !i10b 1
-R25
-Z122 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd|
-Z123 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd|
+R24
+Z127 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd|
+Z128 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd|
 !i113 1
 R12
 R13
@@ -1053,27 +1053,27 @@ R4
 DEx4 work 10 sign_ext_9 0 22 ?=4NjFObf5;?0YVmOPRgk0
 !i122 2
 l12
-R119
+R124
 Vm4:I^5:2nNoGkQW9>Wf2[2
 !s100 NR0d>iRlaN0c5;@GliC?_1
 R7
 31
-R24
+R23
 !i10b 1
-R25
-R122
-R123
+R24
+R127
+R128
 !i113 1
 R12
 R13
 Etestbench
-Z124 w1683379456
+Z129 w1683379456
 R4
 R3
 !i122 25
 R0
-Z125 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd
-Z126 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd
+Z130 8C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd
+Z131 FC:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd
 l0
 L7 1
 V]iKK_Z9L:G9B:i8c]3eFH0
@@ -1082,8 +1082,8 @@ R7
 31
 R8
 !i10b 1
-R9
-Z127 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd|
+Z132 !s108 1683394135.000000
+Z133 !s90 -reportprogress|300|-93|-work|work|C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd|
 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd|
 !i113 1
 R12
@@ -1101,9 +1101,9 @@ R7
 31
 R8
 !i10b 1
-R9
-R127
-Z128 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd|
+R132
+R133
+Z134 !s107 C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd|
 !i113 1
 R12
 R13
