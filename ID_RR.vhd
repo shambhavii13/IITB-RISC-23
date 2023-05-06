@@ -46,7 +46,7 @@ begin
     -- RC_ADD <= RC_ADD_IN;
     
 
-    process(PC_2_IN,RA_ADD_IN,RB_ADD_IN,RC_ADD_IN,PC_2xIMM_IN,IMM_SE,IR_IN,ID_RR_CLR,clk)
+    process(PC_2_IN,RA_ADD_IN,RB_ADD_IN,RC_ADD_IN,PC_2xIMM_IN,IMM_SE,IR_IN,ID_RR_CLR,ID_RR_EN,clk)
     begin
         if(ID_RR_EN='1') then
             IR<= IR_IN;
@@ -62,7 +62,7 @@ begin
         end if;
 
         if(ID_RR_CLR='1') then
-            IR<="1011000000000000";
+            IR<="1011000010110000";
             PC_2<="0000000000000000";
             PC_2xIMM<="0000000000000000";
             IMM_SE_dummy<="0000000000000000";

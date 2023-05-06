@@ -33,7 +33,7 @@ begin
 -- DEST <= DEST_IN;
 
 
-process(PC_2_IN, DEST_IN, D_OUT_IN, ALU_C_IN,MEM_WB_CLR, IR_IN,clk) --MEM_WB_CLR 
+process(PC_2_IN, DEST_IN, D_OUT_IN, ALU_C_IN,MEM_WB_CLR, MEM_WB_EN,IR_IN,clk) --MEM_WB_CLR 
 begin
 
 
@@ -49,7 +49,7 @@ begin
     end if;
 
     if(MEM_WB_CLR='1') then
-        IR<="1011000000000000";
+        IR<="1011000010110000";
         PC_2<="0000000000000000";
         D_OUT<="0000000000000000";
         ALU_C<="0000000000000000";

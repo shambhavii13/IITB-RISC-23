@@ -31,7 +31,7 @@ begin
 
 
 
-process(PC_2_IN,DEST_IN,RA_IN,ALU_C_IN,IR_IN,EX_MEM_CLR,clk)
+process(PC_2_IN,DEST_IN,RA_IN,ALU_C_IN,IR_IN,EX_MEM_CLR,EX_MEM_EN,clk)
 begin
     if(EX_MEM_EN='1') then
         IR<=IR_IN;
@@ -43,7 +43,7 @@ begin
         null;
     end if;
     if(EX_MEM_CLR='1') then
-        IR<="1011000000000000";
+        IR<="1011000010110000";
         PC_2<="0000000000000000";
         RA<="0000000000000000";
         ALU_C<="0000000000000000";

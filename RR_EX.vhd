@@ -44,7 +44,7 @@ begin
 -- DEST <= DEST_IN;
     
 
-process(PC_2_IN, ALU_A_MUX_IN, ALU_B_MUX_IN, DEST_IN, RA_IN, PC_2xIMM_IN,RR_EX_CLR, IR_IN,clk)
+process(PC_2_IN, ALU_A_MUX_IN, ALU_B_MUX_IN, DEST_IN, RA_IN, PC_2xIMM_IN,RR_EX_CLR,RR_EX_EN, IR_IN,clk)
 begin
     ALU_B <= ALU_B_MUX_IN; -- SM
     if(RR_EX_EN='1') then
@@ -60,7 +60,7 @@ begin
     end if;
 
     if(RR_EX_CLR='1') then
-        IR<="1011000000000000";
+        IR<="1011000010110000";
         PC_2<="0000000000000000";
         PC_2xIMM<="0000000000000000";
         RA<="0000000000000000";
