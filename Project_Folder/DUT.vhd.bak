@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity DUT is
+   port(input_vector: in std_logic_vector(0 downto 0);
+       	output_vector: out std_logic_vector(0 downto 0));
+end entity;
+
+architecture DutWrap of DUT is
+   component CPU is
+	port(clk : in std_logic;
+	output_dummy: out std_logic;
+	R0,R1,R2,R3,R4,R5,R6,R7: out std_logic_vector(15 downto 0);
+	Current_Zero_OUT, Current_Carry_OUT: out std_logic;
+	);
+	end component;
+
+begin
+   add_instance: CPU
+		port map(
+			clk => input_vector(0),
+			output_dummy => output_vector(130),
+			R0=> output_vector(129 downto 114),
+			R1=> output_vector(113 downto 98),
+			R2=> output_vector(97 downto 82),
+			R3=> output_vector(81 downto 66),
+			R4=> output_vector(65 downto 50),
+			R5=> output_vector(49 downto 34),
+			R6=> output_vector(33 downto 18),
+			R7=> output_vector(17 downto 2),
+			Current_Zero_OUT => output_vector(1),
+			Current_Carry_OUT => output_vector(0)
+		);
+
+end DutWrap;
