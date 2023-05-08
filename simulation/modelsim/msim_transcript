@@ -1,0 +1,383 @@
+# Reading pref.tcl
+# do proj_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Users/91937/OneDrive - Indian Institute of Technology Bombay/QUartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_controller
+# -- Compiling architecture Struct of pipeline_controller
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(138): (vcom-1013) Initial value of "opcode" depends on value of signal "MEM_WB_IR".
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(139): (vcom-1013) Initial value of "last3bits" depends on value of signal "MEM_WB_IR".
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(282): (vcom-1013) Initial value of "opcode" depends on value of signal "RR_EX_IR".
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(283): (vcom-1013) Initial value of "last3bits" depends on value of signal "RR_EX_IR".
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(487): (vcom-1013) Initial value of "opcode" depends on value of signal "EX_MEM_IR".
+# ** Warning: C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/pipeline_controller.vhd(507): (vcom-1013) Initial value of "opcode" depends on value of signal "MEM_WB_IR".
+# End time: 22:58:52 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/up.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CPU
+# -- Compiling architecture main of CPU
+# End time: 22:58:52 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_9.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_ext_9
+# -- Compiling architecture SE_Arch of sign_ext_9
+# End time: 22:58:52 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Sign_Ext_6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_ext_6
+# -- Compiling architecture SE_Arch of sign_ext_6
+# End time: 22:58:52 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/shifter_multiplybytwo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter_multiplybytwo
+# -- Compiling architecture arch of shifter_multiplybytwo
+# End time: 22:58:52 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:52 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/RR_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RR_EX
+# -- Compiling architecture pipeline_reg of RR_EX
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_File.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_File
+# -- Compiling architecture rb1 of Register_File
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Register_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_1
+# -- Compiling architecture Register_1_Arch of Register_1
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/mux81.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux81
+# -- Compiling architecture behavior of mux81
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_6_to_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX_6_to_1
+# -- Compiling architecture Struct of MUX_6_to_1
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_4_to_1_16bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX_4_to_1_16bit
+# -- Compiling architecture behavior of MUX_4_to_1_16bit
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_3_to_1_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX_3_to_1_3bit
+# -- Compiling architecture Struct of MUX_3_to_1_3bit
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_16bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX_2_to_1_16bit
+# -- Compiling architecture Struct of MUX_2_to_1_16bit
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MUX_2_to_1_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX_2_to_1_3bit
+# -- Compiling architecture Struct of MUX_2_to_1_3bit
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/MEM_WB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MEM_WB
+# -- Compiling architecture pipeline_reg of MEM_WB
+# End time: 22:58:53 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:53 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/LMSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LMSM
+# -- Compiling architecture Struct of LMSM
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Instr_Mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Instr_Mem
+# -- Compiling architecture mem_arch of Instr_Mem
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IF_ID
+# -- Compiling architecture pipeline_reg of IF_ID
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ID_RR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ID_RR
+# -- Compiling architecture pipeline_reg of ID_RR
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/EX_MEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity EX_MEM
+# -- Compiling architecture pipeline_reg of EX_MEM
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/DUT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Dataflow
+# -- Compiling architecture Dataflow_Arch of Dataflow
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Data_Mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Data_Mem
+# -- Compiling architecture mem_arch of Data_Mem
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU23.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU23
+# -- Compiling architecture arch of ALU23
+# End time: 22:58:54 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:54 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture Structure_ALU of ALU
+# End time: 22:58:55 on May 06,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:58:55 on May 06,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/91937/OneDrive/Desktop/IITB/309_project/IITB-RISC-23/Testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 22:58:55 on May 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 22:58:55 on May 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(main)
+# Loading work.pipeline_controller(struct)
+# Loading work.dataflow(dataflow_arch)
+# Loading work.instr_mem(mem_arch)
+# Loading work.alu23(arch)
+# Loading work.mux_4_to_1_16bit(behavior)
+# Loading work.if_id(pipeline_reg)
+# Loading work.sign_ext_6(se_arch)
+# Loading work.sign_ext_9(se_arch)
+# Loading work.mux_2_to_1_16bit(struct)
+# Loading work.shifter_multiplybytwo(arch)
+# Loading work.id_rr(pipeline_reg)
+# Loading work.lmsm(struct)
+# Loading work.mux_3_to_1_3bit(struct)
+# Loading work.register_file(rb1)
+# Loading work.mux81(behavior)
+# Loading work.mux_2_to_1_3bit(struct)
+# Loading work.mux_6_to_1(struct)
+# Loading work.rr_ex(pipeline_reg)
+# Loading work.register_1(register_1_arch)
+# Loading work.alu(structure_alu)
+# Loading work.ex_mem(pipeline_reg)
+# Loading work.data_mem(mem_arch)
+# Loading work.mem_wb(pipeline_reg)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/DP/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/DP/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 154 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 154 ns  Iteration: 1  Instance: /testbench/dut_instance/add_instance/DP/Data_Memory
+# ** Error: FAILURE, some tests failed.
+#    Time: 13552 ns  Iteration: 0  Instance: /testbench
+# WARNING: No extended dataflow license exists
+# End time: 23:02:43 on May 06,2023, Elapsed time: 0:03:48
+# Errors: 1, Warnings: 8
